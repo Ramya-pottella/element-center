@@ -1,0 +1,68 @@
+.main1{
+    margin:15px;
+    width:1000px;
+    height:700px;
+    border:5px solid brown;
+    box-shadow:15px 10px 10px #aaaaaa;
+    border-radius:30px;
+    padding:20px;
+    background-color:white;
+}
+h1{
+    text-align:center;
+    color:black;
+    background-color:cornflowerblue;
+    border-radius:15px;
+}
+p{
+    color:black;
+    font-weight:300;
+}
+body{
+    background-color:azure;
+}
+.img1{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height:450px;
+    width:600px;
+    border-radius:20px;
+    box-shadow: 15px 10px 10px #aaaaaa;
+    background-image: url("shoes.avif");
+}
+.img2{
+    height:400px;
+    width:100vw;
+}
+label{
+    font-size:50px;
+    font-weight:bold;
+    color:white;
+    padding:20px;
+}
+@media screen and (max-width:800px){
+    h1{
+        color:blue;
+        background-color:lightpink;
+    }
+    div{
+        margin:5px;
+    }
+    p{
+        color:blue;
+    }
+    .main1{
+        margin:25px;
+        width:300px;
+        height:700px;
+    }
+    .img1{
+        width:300px;
+        height:300px;
+    }
+    label{
+        font-size:30px;
+        color:black;
+    }
+}
